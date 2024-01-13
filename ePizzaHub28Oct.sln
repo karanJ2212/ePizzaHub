@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ePizzaHub.Core", "ePizzaHub.Core\ePizzaHub.Core.csproj", "{DD619FA4-79B3-4FCB-98E4-C6C80135A020}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ePizzaHub.Repositories", "ePizzaHub.Repositories\ePizzaHub.Repositories.csproj", "{793066A7-1DB1-4FE3-989C-F4E898D32FBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ePizzaHub.Services", "ePizzaHub.Services\ePizzaHub.Services.csproj", "{49657EA7-E43F-4330-BF01-51312FAD8A5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ePizzaHub.Models", "ePizzaHub.Models\ePizzaHub.Models.csproj", "{827B4924-CE7E-4263-AEA7-C7670E4B76EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ePizzaHub.UI", "ePizzaHub.UI\ePizzaHub.UI.csproj", "{33312E45-DF69-4B75-83B8-6A6A59AEB3F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD619FA4-79B3-4FCB-98E4-C6C80135A020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD619FA4-79B3-4FCB-98E4-C6C80135A020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD619FA4-79B3-4FCB-98E4-C6C80135A020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD619FA4-79B3-4FCB-98E4-C6C80135A020}.Release|Any CPU.Build.0 = Release|Any CPU
+		{793066A7-1DB1-4FE3-989C-F4E898D32FBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{793066A7-1DB1-4FE3-989C-F4E898D32FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{793066A7-1DB1-4FE3-989C-F4E898D32FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{793066A7-1DB1-4FE3-989C-F4E898D32FBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49657EA7-E43F-4330-BF01-51312FAD8A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49657EA7-E43F-4330-BF01-51312FAD8A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49657EA7-E43F-4330-BF01-51312FAD8A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49657EA7-E43F-4330-BF01-51312FAD8A5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{827B4924-CE7E-4263-AEA7-C7670E4B76EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{827B4924-CE7E-4263-AEA7-C7670E4B76EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{827B4924-CE7E-4263-AEA7-C7670E4B76EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{827B4924-CE7E-4263-AEA7-C7670E4B76EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33312E45-DF69-4B75-83B8-6A6A59AEB3F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33312E45-DF69-4B75-83B8-6A6A59AEB3F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33312E45-DF69-4B75-83B8-6A6A59AEB3F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33312E45-DF69-4B75-83B8-6A6A59AEB3F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6DE6822-34D4-40B9-9C12-808865C6C5FF}
+	EndGlobalSection
+EndGlobal
