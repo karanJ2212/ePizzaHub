@@ -4,11 +4,16 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 var builder = WebApplication.CreateBuilder(args);
 
 ConfigureDependencies.RegisterServices(builder.Services, builder.Configuration);
+
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options=> {
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options =>
+{
     options.Cookie.Name = "epizzahubapp";
     options.LoginPath = new PathString("/account/login");
     options.SlidingExpiration = true;
